@@ -73,10 +73,10 @@
         
         twoxko_layer {
             bindings = <
-            &trans  &trans  &trans  &trans  &trans  &trans                                          &trans   &trans   &trans   &trans   &trans  &trans
-            &trans  &trans  &trans  &trans  &trans  &trans                                          &trans   &trans   &trans   &trans   &trans  &trans
-            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &kp U   &kp I       &trans   &trans   &trans   &trans   &trans  &trans
-                                    &trans  &trans  &trans  &trans  &trans      &kp M   &kp COMMA   &kp DOT  &trans   &to 0
+            &trans      &trans  &trans  &trans  &trans  &trans                                          &trans   &trans   &trans   &trans   &trans  &trans
+            &kp SPACE   &kp A   &kp S  &kp D    &trans  &trans                                          &trans   &trans   &trans   &trans   &kp DOT  &trans
+            &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans      &kp U   &kp I       &trans   &trans   &trans   &trans   &trans  &trans
+                                        &trans  &trans  &trans  &kp W   &kp O      &kp M   &kp COMMA   &kp P  &trans   &to 0
             >; 
 
 
